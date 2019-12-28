@@ -9,11 +9,6 @@ public class FizzBuzzTestZy {
     FizzBuzzImplZy fizzBuzzImpl = new FizzBuzzImplZy();
 
     @Test
-    public void hello_world_test(){
-        assertThat("Hello World").isEqualTo("Hello World");
-    }
-
-    @Test
     public void when_trible_should_return_fizz_when_three() {
         assertThat(fizzBuzzImpl.numOff(3)).isEqualTo("fizz");
     }
