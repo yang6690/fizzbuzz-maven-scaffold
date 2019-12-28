@@ -12,7 +12,7 @@ public class RoverController {
         Rover rover = new Rover();
         rover.land(area, Integer.parseInt(info[2]), Integer.parseInt(info[3]), info[4]);
 
-        for(int i = 4; i < info.length; i++) {
+        for (int i = 4; i < info.length; i++) {
             executeOneCommend(info, rover, i);
         }
 
@@ -20,11 +20,11 @@ public class RoverController {
     }
 
     private void executeOneCommend(String[] info, Rover rover, int i) throws Exception {
-        if("M".equals(info[i])) {
+        if ("M".equals(info[i])) {
             rover.move();
-        }else if("L".equals(info[i])) {
+        } else if ("L".equals(info[i])) {
             rover.turnLeft();
-        }else if("R".equals(info[i])) {
+        } else if ("R".equals(info[i])) {
             rover.turnRight();
         }
     }
