@@ -6,9 +6,9 @@ public class FizzBuzzImplZy {
     private List<Integer> array = new ArrayList();
 
     public String numOff(int param) {
-        if(param % 3 == 0 && param % 5 == 0 && param % 7 == 0 ){
+        if (param % 3 == 0 && param % 5 == 0 && param % 7 == 0){
             return "FizzBuzzWhizz";
-        }else if (param % 3 == 0 && param % 5 == 0) {
+        } else if (param % 3 == 0 && param % 5 == 0) {
             return "fizzbuzz";
         } else if (param % 7 == 0 && param % 3 == 0){
             return "FizzWhizz";
@@ -18,7 +18,7 @@ public class FizzBuzzImplZy {
             return "fizz";
         } else if (param % 5 == 0) {
             return "buzz";
-        } else if(param <= 0) {
+        } else if (param <= 0) {
             return "invalid input";
         }
         return String.valueOf(param);

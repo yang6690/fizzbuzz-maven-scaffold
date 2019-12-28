@@ -9,12 +9,12 @@ public class FizzBuzzTestZy {
     FizzBuzzImplZy fizzBuzzImpl = new FizzBuzzImplZy();
 
     @Test
-    public void when_trible_should_return_fizz_when_three() {
+    public void when_trible_should_return_fizz_when_three(){
         assertThat(fizzBuzzImpl.numOff(3)).isEqualTo("fizz");
     }
 
     @Test
-    public void when_trible_should_return_fizz_when_six() {
+    public void when_trible_should_return_fizz_when_six(){
         assertThat(fizzBuzzImpl.numOff(6)).isEqualTo("fizz");
     }
 
@@ -28,10 +28,6 @@ public class FizzBuzzTestZy {
         assertThat(fizzBuzzImpl.numOff(20)).isEqualTo("buzz");
     }
 
-    @Test
-    public void when_other_should_return_num() {
-        assertThat(fizzBuzzImpl.numOff(8)).isEqualTo("8");
-    }
 
     @Test
     public void should_return_one() {
@@ -60,7 +56,7 @@ public class FizzBuzzTestZy {
         assertThat(fizzBuzzImpl.numOff(-1)).isEqualTo("invalid input");
     }
 
-    
+
 
 
 }
