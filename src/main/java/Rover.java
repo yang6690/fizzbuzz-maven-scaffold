@@ -54,7 +54,7 @@ public class Rover {
             direction = EAST;
         } else if (EAST.equals(direction)) {
             direction = NORTH;
-        }else if (WEST.equals(direction)) {
+        } else if (WEST.equals(direction)) {
             direction = SOUTH;
         }
     }
@@ -62,11 +62,11 @@ public class Rover {
     public void turnRight() {
         if (NORTH.equals(direction)) {
             direction = EAST;
-        }else if (SOUTH.equals(direction)) {
+        } else if (SOUTH.equals(direction)) {
             direction = WEST;
-        }else if (EAST.equals(direction)) {
+        } else if (EAST.equals(direction)) {
             direction = SOUTH;
-        }else if (WEST.equals(direction)) {
+        } else if (WEST.equals(direction)) {
             direction = NORTH;
         }
     }

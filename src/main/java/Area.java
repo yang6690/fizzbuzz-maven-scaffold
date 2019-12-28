@@ -2,9 +2,9 @@ public class Area {
     private int xLoc = 0;
     private int yLoc = 0;
 
-    public Area(int X, int Y) {
-        this.xLoc = X;
-        this.yLoc = Y;
+    public Area(int Xloc, int Yloc) {
+        this.xLoc = Xloc;
+        this.yLoc = Yloc;
     }
     public int getxLoc() {
         return xLoc;
